@@ -1,0 +1,55 @@
+#!/bin/bash
+echo ' ()_() '
+
+case "$1" in
+"^")
+echo ' (^.^) '
+;;
+";")
+echo ' (;.;) '
+;;
+"o")
+echo ' (o.O) '
+;;
+".")
+echo ' (._.) '
+;;
+"-")
+echo ' (-.-) '
+;;
+">")
+echo ' (>.<) '
+;;
+"OwO")
+echo ' (OwO) '
+;;
+"*")
+echo ' (*^*) '
+;;
+*)
+echo ' (^.^) '
+;;
+esac
+
+case "$2" in
+"o")
+echo 'o(   )o'
+;;
+"d")
+echo 'd(   )b'
+;;
+"~")
+echo '~(   )~'
+;;
+"V")
+echo 'V(   )o'
+;;
+"<")
+echo '<(   )>'
+;;
+*)
+echo 'o(   )o'
+;;
+esac
+
+echo ' () () '
