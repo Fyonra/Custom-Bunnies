@@ -1,9 +1,0 @@
-#!/bin/bash
-
-read -p 'which eyes?' eyes
-read -p 'which arms?' arms
-
-echo ' ()_() '
-echo " ($eyes.$eyes) "
-echo "$arms(   )$arms"
-echo ' () () '
