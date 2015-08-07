@@ -6,7 +6,7 @@ case "$1" in
 echo ' (^.^) '
 ;;
 ";")
-echo ' (;.;) '
+echo ' (;-;) '
 ;;
 "o")
 echo ' (o.O) '
@@ -25,6 +25,9 @@ echo ' (OwO) '
 ;;
 "*")
 echo ' (*^*) '
+;;
+'slendie')
+echo ' (   ) '
 ;;
 *)
 echo ' (^.^) '
@@ -53,3 +56,23 @@ echo 'o(   )o'
 esac
 
 echo ' () () '
+
+if [[ "$1" == "help" ]]; then
+echo "----------"
+echo "Welcome to Custom-Bunnies!"
+echo "----------"
+echo "The program is used like so:"
+echo "Every Custom Bunny must start with, of course, the word 'custom.'"
+echo "(remember to remove the quotes!)"
+echo "Afterwards, we have a limited selection of eyes and arms for your bunny."
+echo "The standard setup for a bunny is: custom (eyes) (arms)"
+echo "('eyes' is replaced with the eyes of your choice; same goes for 'arms.'"
+echo "--Eyes:---"
+echo "Most eyes are selected with a single letter, number, or symbol."
+echo "Among the selections are:"
+echo "^: A single carat (carrot, hee-hee) will give you: (^.^)"
+echo "';': A semicolon (including single quotes) will give you: (;-;)"
+echo "o: The letter o will give you the default confused face: (o.O)"
+else
+echo " "
+fi
