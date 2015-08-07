@@ -1,5 +1,6 @@
 #!/bin/bash
 
+read -p 'Would you like to access the help page? [y/n]' help
 read -p 'Which eyes? ' eyes
 read -p 'Which arms? ' arms
 
