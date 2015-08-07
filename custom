@@ -26,7 +26,7 @@ echo ' (OwO) '
 "*")
 echo ' (*^*) '
 ;;
-'slendie')
+'blank')
 echo ' (   ) '
 ;;
 *)
@@ -59,20 +59,32 @@ echo ' () () '
 
 if [[ "$1" == "help" ]]; then
 echo "----------"
-echo "Welcome to Custom-Bunnies!"
-echo "----------"
-echo "The program is used like so:"
-echo "Every Custom Bunny must start with, of course, the word 'custom.'"
-echo "(remember to remove the quotes!)"
-echo "Afterwards, we have a limited selection of eyes and arms for your bunny."
-echo "The standard setup for a bunny is: custom (eyes) (arms)"
-echo "('eyes' is replaced with the eyes of your choice; same goes for 'arms.'"
-echo "--Eyes:---"
-echo "Most eyes are selected with a single letter, number, or symbol."
-echo "Among the selections are:"
-echo "^: A single carat (carrot, hee-hee) will give you: (^.^)"
-echo "';': A semicolon (including single quotes) will give you: (;-;)"
-echo "o: The letter o will give you the default confused face: (o.O)"
+echo "Usage: custom [eyes] [arms]"
+echo "Creates customizeable bunnies. Help page available when 'custom help' is typed in."
+echo " "
+echo "Eyes:"
+echo "   ^       (^.^)"
+echo "   ';'     (;-;)"
+echo "   o       (o.O)"
+echo "   .       (._.)"
+echo "   -       (-.-)"
+echo "   '>'     (>.<)"
+echo "   OwO     (OwO)"
+echo "   '*'     (*^*)"
+echo "   blank   (   )"
+echo "With no 'eyes' input, standard eyes (^.^)"
+echo "Arms:"
+echo "   o       o(   )o"
+echo "   d       d(   )b"
+echo "   '~'     ~(   )~"
+echo "   V       V(   )o"
+echo "   '<'     <(   )>"
+echo "With no 'arms' input, standard arms o(   )o"
+echo " "
+echo "Examples:"
+echo "   custom '*' d     Outputs bunny with eyes (*^*) and arms d(   )b"
+echo "   custom           Outputs standard bunny with eyes (^.^) and arms o(   )o"
+echo "   custom help      Outputs standard bunny and help page"
 else
 echo " "
 fi
